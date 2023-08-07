@@ -10,4 +10,13 @@ import App from './AppDemoAnimatedGif';
 // import App from './AppAllPropsWithDynamicProperties';
 // import App from './AppSaveToLocalFile';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const container = document.getElementById('root');
+
+// Create a root.
+const root = ReactDOM.createRoot(container);
+
+// Initial render
+root.render(<App />);
+
+// During an update, there is no need to pass the container again
+root.render(<App />);
