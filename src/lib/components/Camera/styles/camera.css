@@ -34,6 +34,10 @@
   object-fit: cover;
 }
 
+.react-html5-camera-photo-fullscreen > img {
+  object-fit: cover;
+}
+
 
 .react-html5-camera-photo-fullscreen > .display-error {
   width: 100vw;
