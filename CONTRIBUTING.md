@@ -12,8 +12,8 @@ Please do the following:
 
 ### Development
 
-1. run `npm install`
-2. run `npm start`
+1. run `yarn install`
+2. run `yarn start`
 3. Make a coffee :)
 4. write your code in ES6
 5. push your changes
