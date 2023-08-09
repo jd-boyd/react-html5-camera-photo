@@ -2,10 +2,12 @@
 
 # dependencies
 /node_modules
+/.yarn
+
 
 # production
-/build
 /demo
+/build
 
 # testing
 /coverage
@@ -27,3 +29,8 @@ yarn-error.log*
 
 # External libs
 src/jslib-html5-camera-photo/
+
+
+#emacs
+\#*
+.\#*
